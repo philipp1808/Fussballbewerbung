@@ -1,16 +1,18 @@
 body{
-background-image: url("../img/images.jpeg");
-background-repeat:no-repeat;
- 
+  background-image: url("../img/images.jpeg");
+  background-repeat:no-repeat;
   height: 10%;
-
-  
   background-position:right top;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: 0.5em;
+}
 
-	
-	margin-left: 0.5em;
+.action-button {
+  background-color: turquoise;
+  padding: 6px 26px;
+  border: 1px solid white;
+}
 	
 	
 	
