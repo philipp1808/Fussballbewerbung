@@ -6,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #41b32b;
-  text-indent: 3cm;
+  text-indent: 10%;
 }
 
 .action-button {
@@ -26,6 +26,20 @@ h2 {background-color: #1abbe8;
 
 h3 {text-decoration: underline;		
 }
+
+p {font-family: times new roman;
+}
+
+ul { border:3px solid black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	padding-left: 3%;
+	margin-left: 2cm;
+}
+
+li { margin: 2px;
+}		
 
 
 	
