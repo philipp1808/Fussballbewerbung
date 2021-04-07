@@ -1,13 +1,14 @@
-.landing-page {
+body {
   background-image: url("../img/football-field-1428839_960_720.png");
   background-repeat:no-repeat;
   height: 10%;
   background-position:right top; 
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 2em;
   background-color: #41b32b;
-  text-indent:2cm;
+  text-indent: 3cm;
+  font-size: 10px;
+  line-height: 4px;
 }
 
 .action-button {
@@ -21,15 +22,18 @@ h1 {text-decoration: underline;
 	font-family: times new roman;
 }	
 
+h2 {background-color: #1abbe8
+	
+}
 h3 {text-decoration: underline;		
 }
 
-ul {border: 2px black;
+ul {border: 2px solid black;
 	padding1-top: 1%;
 	padding-bottom: 1%;
-	padding-left: 3%;
+	padding-left: 1%;
 	padding-right: 1%;
-	
+	max-width: 15em;	
 }	
 	
 	
