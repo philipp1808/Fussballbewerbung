@@ -7,17 +7,20 @@
   </head>
   <body>
 
-      <h1>
-          Jetzt Anmelden 
-      </h1>
-
-      <h2>
-          Kleinere Überschrift
-      </h2>
-
-      <p>
-          Dies ist ein Absatz.
-      </p>
+     
+	  <h2>Name</h2>
+	<form action="myForm.php" method="post" id="myForm">
+   <input type="text" size="20" required />
+   <input type="submit" value="Absenden" />
+</form>
+<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Name« bitte ausfüllen'
+      evt.preventDefault();
+  </script>
+    
 
   </body>
 </html>
