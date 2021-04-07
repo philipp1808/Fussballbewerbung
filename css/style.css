@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-color: #41b32b;
   text-indent: 3cm;
-  font-size: 100px;
+  font-size: 20px;
   line-height: 4px;
 }
 
@@ -22,9 +22,10 @@ h1 {text-decoration: underline;
 	font-family: times new roman;
 }	
 
-h2 {background-color: #1abbe8
-	
+h2 {background-color: #1abbe8;
+	max-width: 20em;		
 }
+
 h3 {text-decoration: underline;		
 }
 
