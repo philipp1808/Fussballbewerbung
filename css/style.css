@@ -1,38 +1,51 @@
-body {
-  background-image: url("../img/football-field-1428839_960_720.png");
-  background-repeat:no-repeat;
-  height: 10%;
-  background-position:right top; 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #41b32b;
-  text-indent: 10%;
-  font-weight: 500;
+.landing-page {
+	background-image: url(../img/football-field-1428839_960_720.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #89b647;
+	font-weight: 500;
+	margin: 4% 6%;
+}
+
+.content-box {
+	padding: 2%;
+	background-color: #ffffff73;
 }
 
 .action-button {
-  background-color: turquoise;
-  padding: 6px 26px;
-  border: 1px solid white;
+	background-color: turquoise;
+	padding: 6px 26px;
+	border: 1px solid white;
 }
 
-h1 {text-decoration: underline;
+h1 {
+	text-decoration: underline;
 	text-align:center;
 	font-family: times new roman;
-}	
-
-h2 {background-color: turquoise;
-	max-width: 20em;		
 }
 
-h3 {text-decoration: underline;		
+.landing-page h1 {
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 
-p {font-family: times new roman;
-	text-indent:10%
+h2 {
+	background-color: turquoise;
+	display: inline;
+	padding: 2px 13px;		
 }
 
-ul { border:3px solid black;
+h3 {
+	text-decoration: underline;		
+}
+
+p {
+	font-family: times new roman;
+}
+
+ul { 
+	border:3px solid black;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	padding-right: 1%;
@@ -41,7 +54,8 @@ ul { border:3px solid black;
 	max-width: 20cm;
 }
 
-li { margin: 2px;
+li { 
+	margin: 2px;
 }		
 
 
