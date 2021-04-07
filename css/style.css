@@ -2,10 +2,11 @@
   background-image: url("../img/football-field-1428839_960_720.png");
   background-repeat:no-repeat;
   height: 10%;
-  background-position:right top;
+  background-position:right top; 
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 0.5em;
+  margin-left: 2em;
+  background-color: #41b32b;
 }
 
 .action-button {
@@ -13,8 +14,14 @@
   padding: 6px 26px;
   border: 1px solid white;
 }
-	
-	
+
+h1 {text-decoration: underline;
+	text-align:center;
+	font-family: times new roman;
+}	
+
+h2 {text-decoration: underline;		
+}	
 	
 	
 	
