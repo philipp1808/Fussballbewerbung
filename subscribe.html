@@ -8,10 +8,10 @@
   <body>
 
      
-	  <h2>Name</h2>
+	  <h4>Name</h4>
 	<form action="myForm.php" method="post" id="myForm">
    <input type="text" size="20" required />
-   <input type="submit" value="Absenden" />
+  
 </form>
 <script>
 document.getElementById('myForm').onsubmit = function (evt) { 	
@@ -20,7 +20,29 @@ document.getElementById('myForm').onsubmit = function (evt) {
       msg.innerHTML = '»Name« bitte ausfüllen'
       evt.preventDefault();
   </script>
-    
-
+    <h4>Nummer<h4/>
+<form>
+  <label> 
+    <input type="tel" name="MobilNummer" placeholder="+49-">
+  </label>
+	<h4>Postion<h4/>
+<select onclick="change();">
+ <option> Stürmer
+ <option> Mittelfeldspieler
+ <option>Abwehrspieler
+ <option>Torwart
+	 
+</select>	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
   </body>
 </html>
