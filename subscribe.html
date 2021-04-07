@@ -9,7 +9,7 @@
 
      
 	  <h4>Name</h4>
-	<form action="myForm.php" method="post" id="myForm">
+	
    <input type="text" size="20" required />
   
 </form>
@@ -25,16 +25,29 @@ document.getElementById('myForm').onsubmit = function (evt) {
   <label> 
     <input type="tel" name="MobilNummer" placeholder="+49-">
   </label>
+	<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Nummer« bitte ausfüllen'
+      evt.preventDefault();
+  </script>
 	<h4>Postion<h4/>
 <select onclick="change();">
  <option> Stürmer
  <option> Mittelfeldspieler
  <option>Abwehrspieler
  <option>Torwart
-	 
+	<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Position« bitte ausfüllen'
+      evt.preventDefault();
+  </script> 
 </select>	
-	
-	
+<h4>Jahrgang<h4/>	
+ <input type="text" size="20" required />
 	
 	
 	
