@@ -7,129 +7,178 @@
   </head>
   <body class="subscribe-page">
 
-	<h1>Jetzt Anmelden</h1>
+	  <h1>Jetzt Anmelden</h1>
 
-	<h4>Vor-und-Nachname</h4>
-	<span class="email-box">
-		<input name="name" type="text" />
-	</span>
+      <h4>Vor-und-Nachname<h4/>
+<span class="email-box">
+    <label for="email"></label>
+<input name="email" type="email">
+	placeholder  
+ 
+
+<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Name« bitte ausfüllen'
+      evt.preventDefault();
+  </script>
 	  
-	<h4>E-mail</h4>
-	<span class="email-box">
-		<input name="email" type="email" />
-	</span>
+    <h4>E-mail<h4/>
+<span class="email-box">
+    <label for="email"></label>
+<input name="email" type="email">
+
+	    </span>
+	<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»email« bitte ausfüllen'
+      evt.preventDefault();
+  </script>
+	    <br/>
+	    <h4>Postion auswählen<h4/>
+<select onclick="change();">
+ <option> Stürmer
+ <option> Mittelfeldspieler
+ <option>Abwehrspieler
+ <option>Torwart
+  </select>
+ 			    
+	<script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('label').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Position« bitte ausfüllen'
+      evt.preventDefault();
+  </script> 
+</select>	
+<h4>Jahrgang<h4/>	
+<span class="email-box">
+		       
+		       
+		       
+    <label for="email"></label>
+<input name="email" type="email">
 		
-	<h4>Position auswählen</h4>
-	<select onclick="change();">
-		<option> Stürmer </option>
-		<option> Mittelfeldspieler </option>
-		<option> Abwehrspieler </option>
-		<option> Torwart </option>
-	</select>
 		
-	<h4>Jahrgang</h4>	
-	<span class="email-box">
-		<input name="jahrgang" type="text" />
-	</span>
+		
+<br/>
    
-	<h4>Trikotnummer auswählen</h4>
-	<select onclick="change();">
-		<option>2</option>
-		<option>3</option>
-		<option>5</option>
-		<option>6</option>
-		<option>8</option>
-		<option>9</option>
-		<option>10</option>
-		<option>11</option>
-		<option>13</option>
-		<option>14</option>
-		<option>15  </option>
-		<option>16</option>
-		<option>18</option>
-		<option>19</option>
-		<option>20</option>
-		<option>21</option>
-		<option>22</option>
-		<option>23   </option>
-		<option>24  </option>
-		<option>25</option>
-		<option>26	 </option>
-		<option>27	 </option>
-		<option>28	 </option>
-		<option>29</option>
-		<option>30</option>
-		<option>30</option>
-		<option>30</option>
-		<option>32	 </option>
-		<option>34	</option>
-		<option>35	</option>
-		<option>36	</option>
-		<option>37	</option>
-		<option>38	</option>
-		<option>39	</option>
-		<option>40</option>
-		<option>41	</option>
-		<option>42	</option>
-		<option>43	</option>
-		<option>44	</option>
-		<option>45	</option>
-		<option>46</option>
-		<option>47	</option>
-		<option>48	</option>
-		<option>49</option>
-		<option>50</option>
-		<option>51</option>
-		<option>52</option>
-		<option>53</option>
-		<option>54</option>
-		<option>55	</option>
-		<option>56	</option>
-		<option>57	</option>
-		<option>58	</option>
-		<option>59	</option>
-		<option>60	</option>
-		<option>61	</option>
-		<option>62</option>
-		<option>63</option>
-		<option>64</option>
-		<option>65</option>
-		<option>66</option>
-		<option>67</option>
-		<option>68</option>
-		<option>69</option>
-		<option>70</option>
-		<option>71</option>
-		<option>72</option>
-		<option>73</option>
-		<option>74</option>
-		<option>75</option>
-		<option>76</option>
-		<option>77</option>
-		<option>78</option>
-		<option>79</option>
-		<option>80</option>
-		<option>81</option>
-		<option>82</option>
-		<option>83</option>
-		<option>84</option>
-		<option>85</option>
-		<option>86</option>
-		<option>87</option>
-		<option>88</option>
-		<option>89</option>
-		<option>90</option>
-		<option>91</option>
-		<option>92</option>
-		<option>93</option>
-		<option>94</option>
-		<option>95</option>
-		<option>96</option>
-		<option>97</option>
-		<option>98	</option>
+   </form>
+<h4>Trikotnummer asuwählen	<h4/>
+<select onclick="change();">
+	    
+
+	<option>2
+	<option>3
+	<option>5
+	<option>6
+	<option>8	
+	<option>9
+	<option>10
+	<option>11
+	<option>13
+	<option>14
+	<option>15  
+	<option>16
+	<option>18
+	<option>19
+	<option>20
+	<option>21
+	<option>22
+	<option>23   
+	<option>24  
+	<option>25
+	<option>26	 
+	<option>27	 
+	<option>28	 
+	<option>29
+	<option>30
+	<option>30
+	<option>30
+	<option>32	 
+	<option>34	
+	<option>35	
+	<option>36	
+	<option>37	
+	<option>38	
+	<option>39	
+	<option>40
+	<option>41	
+	<option>42	
+	<option>43	
+	<option>44	
+	<option>45	
+	<option>46
+	<option>47	
+	<option>48	
+	<option>49
+	<option>50
+	<option>51
+	<option>52
+	<option>53
+	<option>54
+	<option>55	
+	<option>56	
+	<option>57	
+	<option>58	
+	<option>59	
+	<option>60	
+	<option>61	
+	<option>62
+	<option>63
+	<option>64
+        <option>65
+        <option>66
+        <option>67
+        <option>68
+        <option>69
+        <option>70
+        <option>71
+        <option>72
+        <option>73
+        <option>74
+        <option>75
+        <option>76
+        <option>77
+        <option>78
+        <option>79
+        <option>80
+        <option>81
+        <option>82
+        <option>83
+        <option>84
+        <option>85
+        <option>86
+        <option>87
+        <option>88
+        <option>89
+        <option>90
+        <option>91
+        <option>92
+        <option>93
+        <option>94
+        <option>95
+        <option>96
+        <option>97
+        <option>98	
 	</select> 
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
 		
-	<input type="submit" value="Absenden " />	
+	 <input type="submit" value="Absenden " />	
+		<style>
+		margin-top:"30px"	
+		
+		
+		
+		
 		
 		
   </body>
