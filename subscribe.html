@@ -37,9 +37,7 @@ document.getElementById('myForm').onsubmit = function (evt) {
       msg.innerHTML = '»email« bitte ausfüllen'
       evt.preventDefault();
   </script>
-<form name="Position
-<label>Bitte Position auswählen:
-<select name="Trikotnummer" size="9">
+<select onclick="change();">
  <option> Stürmer
  <option> Mittelfeldspieler
  <option>Abwehrspieler
@@ -57,6 +55,9 @@ document.getElementById('myForm').onsubmit = function (evt) {
 </select>	
 <h4>Jahrgang<h4/>	
 <span class="email-box">
+		       
+		       
+		       
     <label for="email"></label>
 <input name="email" type="email">
 		
@@ -65,11 +66,9 @@ document.getElementById('myForm').onsubmit = function (evt) {
 
    
    </form>
-
+<select onclick="change();">
 	    
-<form name="Trikotnummer"
-<label>Bitte Trikotnummer asuwählen:
-	 <select name="Trikotnummer" size="9">
+
 	<option>2
 	<option>3
 	<option>5
