@@ -59,7 +59,10 @@ li {
 }
 
 .subscribe-page {
- background-image: url("../img/Bild.jpg"); 
+	background-image: url("../img/Bild.jpg");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .email-box {
