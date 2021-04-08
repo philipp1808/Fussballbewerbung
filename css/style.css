@@ -104,7 +104,7 @@ select{
 	margin-right: auto;
 }
 
-input {type="submit"} {
+input {type="button"} {
 	margin-top:30px;
    	font-size: 1.3em; padding: 5px 12px; 
    	font-family: Roboto, sans-serif;
