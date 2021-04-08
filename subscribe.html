@@ -139,6 +139,13 @@
 	</select> 
 	<br/>
 	<br/>
+	<input type="reset" value="Alles löschen / Reset" />
+		<script>
+let form = document.getElementById('form');
+form.onreset = function() {
+   if (!window.confirm('Wollen Sie wirklich alle Eingaben löschen?')) 
+   return false;
+</script>
 	<br/>
 	
 			
