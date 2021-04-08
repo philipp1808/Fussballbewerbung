@@ -66,9 +66,7 @@ li {
  text-align:center;
  font-weight: bold;
 	padding: 12px 20px;
-	margin-top: 0px;
-	font-size: 16px;
-	border-radius: 10px;
+	
         justify-content:center;
 	align-items:center;
  position: center;
@@ -85,9 +83,7 @@ select{
 	text-align:center;
  font-weight: bold;
 	padding: 12px 20px;
-	margin-top: 0px;
-	font-size: 16px;
-	border-radius: 10px;
+	;
 		
  position: center;
 	 justify-content:center;
