@@ -31,7 +31,7 @@ h1 {
 }
 
 h2 {
-	color: #fa4646;
+	color: turquoise;
 	display: inline;
 	padding: 2px 13px;		
 }
@@ -79,10 +79,21 @@ li {
 }
 
 select{
+
 	text-align:center;
  font-weight: bold;
 	padding: 12px 20px;
 	
+        justify-content:center;
+	align-items:center;
+ position: center;
+	 justify-content:center;
+	align-items:center;
+
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+	margin-left: auto;
+	margin-right: auto;
+}
 		
  position: center;
 	 justify-content:center;
