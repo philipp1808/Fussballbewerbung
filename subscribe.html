@@ -39,11 +39,14 @@ document.getElementById('myForm').onsubmit = function (evt) {
   </script>
 <form name="Position
 <label>Bitte Position auswählen:
-<select onclick="change();">
+<select name="Trikotnummer" size="9">
  <option> Stürmer
  <option> Mittelfeldspieler
  <option>Abwehrspieler
  <option>Torwart
+  </select>
+  </label>
+</form>				    
 	<script>
 document.getElementById('myForm').onsubmit = function (evt) { 	
    let input = document.getElementById('label').value;
@@ -66,7 +69,7 @@ document.getElementById('myForm').onsubmit = function (evt) {
 	    
 <form name="Trikotnummer"
 <label>Bitte Trikotnummer asuwählen:
-	<select onclick="change();">
+	 <select name="Trikotnummer" size="9">
 	<option>2
 	<option>3
 	<option>5
@@ -159,7 +162,11 @@ document.getElementById('myForm').onsubmit = function (evt) {
         <option>95
         <option>96
         <option>97
-        <option>98
+        <option>98	
+	</select> 
+	</label>
+</form>
+	
 	<br/>
 	<br/>
 	<br/>
