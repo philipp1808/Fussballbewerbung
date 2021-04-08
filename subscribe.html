@@ -37,7 +37,8 @@ document.getElementById('myForm').onsubmit = function (evt) {
       msg.innerHTML = '»email« bitte ausfüllen'
       evt.preventDefault();
   </script>
-	<h4>Position<h4/>
+<form name="Position
+<label>Bitte Position auswählen:
 <select onclick="change();">
  <option> Stürmer
  <option> Mittelfeldspieler
@@ -45,7 +46,7 @@ document.getElementById('myForm').onsubmit = function (evt) {
  <option>Torwart
 	<script>
 document.getElementById('myForm').onsubmit = function (evt) { 	
-   let input = document.getElementById('name').value;
+   let input = document.getElementById('label').value;
    if (input.length < 3) {
       msg.innerHTML = '»Position« bitte ausfüllen'
       evt.preventDefault();
@@ -62,7 +63,9 @@ document.getElementById('myForm').onsubmit = function (evt) {
    
    </form>
 
-	    <h4>Trikotnummer </h4>
+	    
+<form name="Trikotnummer"
+<label>Bitte Trikotnummer asuwählen:
 	<select onclick="change();">
 	<option>2
 	<option>3
