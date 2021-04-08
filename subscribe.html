@@ -134,23 +134,27 @@
 	<br/>
 	<br7>
 	<input type="reset" value="Alles löschen / Reset" />
-		<script>
-let form = document.getElementById('form');
-form.onreset = function() {
-   if (!window.confirm('Wollen Sie wirklich alle Eingaben löschen?')) 
+<!--
+function chkFormular()
+{
+ if(document.Formular.User.value == "")  {
+   alert("Bitte Ihren Namen eingeben!");
+   document.Formular.User.focus();
    return false;
-</script>
-	<br/>
-	
+  }
+ if(document.Formular.Mail.value == "") {
+   alert("Bitte Ihre E-Mail-Adresse eingeben!");
+   document.Formular.Mail.focus();
+   return false;
+  }
+ if(document.Formular.Jahrgang.value == "") {
+   alert("Bitte Jahrgang eingeben ");
+   document.Formular.Jahrgang.focus();
+   return false;
+  }	
 			
 	 <input type="submit" value="Absenden " />	
-		<script>
-document.getElementById('myForm').onsubmit = function (evt) { 	
-   let input = document.getElementById('name').value;
-   if (input.length < 3) {
-      msg.innerHTML = '»Name« bitte ausfüllen'
-      evt.preventDefault();
-  </script>
+		
 		
 		
 		
