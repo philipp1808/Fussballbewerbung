@@ -60,9 +60,7 @@ li {
 
 .subscribe-page {
  	background-image: url("../img/Bild.jpg"); 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	
 }
 
 .email-box {
@@ -114,6 +112,10 @@ input {type="button"} {
    	background-image: linear-gradient(to top, gainsboro 0%, white 90%);
    	border-radius: 20px;
 }
-	
+form {
+	display:flex;
+	flex-direction:colum;
+	align-items:center;
+}
 	
 	
