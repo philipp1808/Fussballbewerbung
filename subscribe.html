@@ -6,7 +6,7 @@
 	<title>Anmelde seite</title>
 	  
 	<script>
-		function onsubmit() { 	
+		function doSubmit() { 	
 			var name = document.getElementsByName('name')[0].value;
 			if (name.length < 3) {
 				alert('»Name« bitte ausfüllen');
@@ -22,7 +22,7 @@
 	</script>
   </head>
   <body class="subscribe-page">
-    <form action="mailto:deine_name@web.de?subject=Kontaktformular" method="post" enctype="text/plain" id="subscribeForm" onsubmit="onsubmit()">
+    <form action="mailto:deine_name@web.de?subject=Kontaktformular" method="post" enctype="text/plain" id="subscribeForm" onsubmit="doSubmit()">
 	<h1>Jetzt Anmelden</h1>
 
 	<h4>Vor-und-Nachname</h4>
