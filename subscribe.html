@@ -157,8 +157,18 @@
 				alert('»email« bitte ausfüllen');
 				return false;
 			}
+			var postion = document.getElementsByName('Position')[0].value;
+			if (position.length < 3) {
+				alert('»Position« bitte ausfüllen');
+				return false;
 			}
-		}
-	</script>
+			var trikotnummer = document.getElementsByName('trikotnummer')[0].value;
+			if (trikotnummer.length < 3) {
+				alert('»trikotnummer« bitte ausfüllen');
+				return false;
+			}
+			
+		
+			</script>
   </body>
 </html>
