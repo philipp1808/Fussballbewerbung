@@ -135,16 +135,19 @@
 	</br>
 	<input type="reset" value="Alles löschen / Reset" />
 
-	<input type="submit"value=Absenden>		
+	<input type="submit"value=Absenden>
+	  <form action="mailto:bewerbungswebseite.friedberg@gmail.com" method="post" enctype="text/plain" >
+
+	  </form>
       <script>
+	      
 document.getElementById('myForm').onsubmit = function (evt) { 	
    let input = document.getElementById('name').value;
    if (input.length < 3) {
       msg.innerHTML = '»Name« bitte ausfüllen'
       evt.preventDefault();
   </script>
-<form action="mailto:bewerbungswebseite.friedberg@gmail.com
-" method="post" enctype="text/plain">
+
 
 	
 		
