@@ -120,11 +120,13 @@ input [reset] {
     	padding:5px 15px; 
     	background:#ccc; 
     	border:0 none;
+	-webkit-border-radius: 5px;
 }
 
 input [submit] {
 	padding:5px 15px; 
     	background:#ccc; 
     	border:0 none;
+	-webkit-border-radius: 5px;
 }
 <input style="background: transparent; border: 0 none; cursor: pointer;
