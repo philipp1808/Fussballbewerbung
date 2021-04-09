@@ -102,17 +102,6 @@ select{
 	margin-right: auto;
 }
 
-input {type="button"} {
-	margin-top:30px;
-   	font-size: 1.3em; padding: 5px 12px; 
-   	font-family: Roboto, sans-serif;
-  	font-weight: 300;
-  	color: teal;
-  	border: 1px solid silver;
-   	background-image: linear-gradient(to top, gainsboro 0%, white 90%);
-   	border-radius: 20px;
-}
-
 form {
 	display: flex;
 	flex-direction: column;
@@ -126,8 +115,10 @@ input [type=text] {
 
 input [type=submit] {
     	padding: 5px 15px; 
-   	background: #ccc; 
+    	background: #ccc; 
     	border: 0 none;
+    	cursor: pointer;
+    	-webkit-border-radius: 5px;
     	border-radius: 5px; 
 }
 
@@ -136,6 +127,8 @@ input [type=reset] {
 	background: #ccc;
 	border:0 none;
 	border-radius: 5px;
+	cursor: pointer;
+    	-webkit-border-radius: 5px;	
 }
 
 span.email-box {
