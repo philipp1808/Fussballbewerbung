@@ -112,7 +112,7 @@ input {type="button"} {
    	background-image: linear-gradient(to top, gainsboro 0%, white 90%);
    	border-radius: 20px;
 }
-element.style {
+form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
