@@ -3,10 +3,26 @@
   <head>
     <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-    <title>Anmelde seite</title>
+	<title>Anmelde seite</title>
+	  
+	<script>
+		function onsubmit() { 	
+			var name = document.getElementsByName('name')[0].value;
+			if (name.length < 3) {
+				alert('»Name« bitte ausfüllen');
+				return false;
+			}
+
+			var jahrgang = document.getElementsByName('jahrgang')[0].value;
+			if (jahrgang.length < 3) {
+				alert('»Jahrgang« bitte ausfüllen');
+				return false;
+			}
+		}
+	</script>
   </head>
   <body class="subscribe-page">
-    <form action="mailto:deine_name@web.de?subject=Kontaktformular" method="post" enctype="text/plain" id="subscribeForm">
+    <form action="mailto:deine_name@web.de?subject=Kontaktformular" method="post" enctype="text/plain" id="subscribeForm" onsubmit="onsubmit()">
 	<h1>Jetzt Anmelden</h1>
 
 	<h4>Vor-und-Nachname</h4>
@@ -136,23 +152,6 @@
 	<input type="reset" value="Alles löschen / Reset" />
 
 	<input type="submit"value=Absenden>
-
-	
-	<script>
-		document.getElementById('subscribeForm').onsubmit = function (evt) { 	
-			var name = document.getElementsByName('name')[0].value;
-			if (name.length < 3) {
-				alert('»Name« bitte ausfüllen');
-				return false;
-			}
-			
-			var jahrgang = document.getElementsByName('jahrgang')[0].value;
-			if (jahrgang.length < 3) {
-				alert('»Jahrgang« bitte ausfüllen');
-				return false;
-			}
-		}
-	</script>
 	
     </form>	
   </body>
