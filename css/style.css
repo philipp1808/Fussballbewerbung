@@ -115,3 +115,16 @@ select {
 	border: 1px solid black;
 	padding: 5px;	
 }
+
+input [reset] {
+    	padding:5px 15px; 
+    	background:#ccc; 
+    	border:0 none;
+}
+
+input [submit] {
+	padding:5px 15px; 
+    	background:#ccc; 
+    	border:0 none;
+}
+
