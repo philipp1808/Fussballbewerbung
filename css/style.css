@@ -119,10 +119,9 @@ form {
 	align-items: center;
 }
 
-button {
+input [text] {
 	border: 3px solid black;
-	
-	
+	padding: 5px;		
 }
 
 	
