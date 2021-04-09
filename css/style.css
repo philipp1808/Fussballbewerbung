@@ -113,9 +113,9 @@ input {type="button"} {
    	border-radius: 20px;
 }
 form {
-	display:flex;
-	flex-direction:colum;
-	align-items:center;
+	display: flex;
+	flex-direction: colum;
+	align-items: center;
 }
 	
 	
