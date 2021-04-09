@@ -127,4 +127,4 @@ input [submit] {
     	background:#ccc; 
     	border:0 none;
 }
-
+<input style="background: transparent; border: 0 none; cursor: pointer;
