@@ -149,23 +149,23 @@
 			}
 
 			var jahrgang = document.getElementsByName('jahrgang')[0].value;
-			if (jahrgang.length < 3) {
+			if (jahrgang.length < 2) {
 				alert('»Jahrgang« bitte ausfüllen');
 				return false;
 			}
 				var email = document.getElementsByName('email')[0].value;
 			if (email.length < 3) {
-				alert('»email« bitte ausfüllen');
+				alert('»Email« bitte ausfüllen');
 				return false;
 			}
-			var postion = document.getElementsByName('Position')[0].value;
-			if (position.length < 3) {
+			var position = document.getElementsByName('position')[0].value;
+			if (position) {
 				alert('»Position« bitte ausfüllen');
 				return false;
 			}
 			var trikotnummer = document.getElementsByName('trikotnummer')[0].value;
-			if (trikotnummer.length < 3) {
-				alert('»trikotnummer« bitte ausfüllen');
+			if (trikotnummer) {
+				alert('»Trikotnummer« bitte ausfüllen');
 				return false;
 			}
 		};
