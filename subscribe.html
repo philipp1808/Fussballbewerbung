@@ -11,7 +11,7 @@
 
 	<h4>Vor-und-Nachname<h4/>
 	
-	<span class="email-box">
+	<span class="email-box"> id="myForm"
 		<input name="name" type="text" />
 	</span>
 
@@ -136,21 +136,13 @@
 	<input type="reset" value="Alles löschen / Reset" />
 
 	<input type="submit"value=Absenden>		
-        if(document.Formular.User.value == "")  {
-   alert("Bitte Ihren Namen eingeben!");
-   document.Formular.User.focus();
-   return false;
-	  )
-	   if(document.Formular.Mail.value == "") {
-   alert("Bitte Ihre E-Mail-Adresse eingeben!");
-   document.Formular.Mail.focus();
-   return false;
-  }
-	   if(document.Formular.Ort.value == "") {
-   alert("Bitte Jahrgang eingeben!");
-   document.Formular.Ort.focus();
-   return false;
-  }
+      <script>
+document.getElementById('myForm').onsubmit = function (evt) { 	
+   let input = document.getElementById('name').value;
+   if (input.length < 3) {
+      msg.innerHTML = '»Name« bitte ausfüllen'
+      evt.preventDefault();
+  </script>
 <form action="mailto:bewerbungswebseite.friedberg@gmail.com
  method="post" enctype="text/plain">
 
