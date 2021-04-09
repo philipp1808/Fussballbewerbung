@@ -24,6 +24,7 @@
 	<h4>Position auswählen</h4>
 	
 	<select name="position">
+		<option value="">bitte auswählen</option>
 		<option> Stürmer </option>
 		<option> Mittelfeldspieler </option>
 		<option> Abwehrspieler </option>
@@ -150,6 +151,12 @@
 			if (jahrgang.length < 3) {
 				alert('»Jahrgang« bitte ausfüllen');
 				return false;
+			}
+				var email = document.getElementsByName('email')[0].value;
+			if (email.length < 3) {
+				alert('»email« bitte ausfüllen');
+				return false;
+			}
 			}
 		}
 	</script>
